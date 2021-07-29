@@ -1,0 +1,28 @@
+
+$third: brown;
+@import "./common/mixin";
+.main{
+    button{
+           @include item;
+           font-size: 80px;
+             &:hover{
+               background-color: $third;
+             cursor: pointer;}   
+        }
+        ul{
+            display: none;}
+       .sub{
+        li{
+          list-style-type: none;
+          a{ @include item;
+              @include list;
+               &:hover{
+                  background-color: $third;
+                      }
+          }
+     }
+       } 
+}
+.main:hover .sub{
+    display: block;
+}

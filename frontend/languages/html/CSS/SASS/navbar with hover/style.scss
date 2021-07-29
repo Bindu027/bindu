@@ -1,0 +1,13 @@
+
+$color: bisque;
+$value: 0px;
+@import "./common/mixin";
+.main{
+     @include item1;
+    li{
+       @include item2;
+    }
+   a{
+    @include item3;
+    }
+}

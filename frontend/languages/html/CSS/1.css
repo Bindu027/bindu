@@ -1,0 +1,36 @@
+
+.anibtn{
+    border: none;
+     padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+     background-color: blue;
+       }
+             .animals{
+                 position: relative;
+                 display: inline-block;
+
+             }
+              .animals-content{
+       
+                 display: none;
+                 position: absolute;
+                 background-color: cornsilk;
+                 min-width: 150px;
+                 box-shadow: 0px 4px 2px 4px;
+                 z-index: 1;
+             }
+             .animals-content a{
+                 display: block;
+                 padding: 12px 16px;
+                 color: crimson;
+                 text-decoration: none;
+            }
+            .animals-content a:hover{
+                background-color: darkmagenta;
+                }
+             .animals:hover .animals-content{
+                    display: block; } 
+                    
+                    

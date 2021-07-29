@@ -1,0 +1,43 @@
+.main button {
+  background-color: skyblue;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  border: 2px solid blue;
+  font-size: 80px;
+}
+
+.main button:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.main ul {
+  display: none;
+}
+
+.main .sub li {
+  list-style-type: none;
+}
+
+.main .sub li a {
+  background-color: skyblue;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  border: 2px solid blue;
+  font-size: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  width: 400px;
+}
+
+.main .sub li a:hover {
+  background-color: brown;
+}
+
+.main:hover .sub {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

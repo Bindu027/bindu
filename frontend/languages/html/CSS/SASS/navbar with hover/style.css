@@ -1,0 +1,25 @@
+.main {
+  background-color: bisque;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main li {
+  list-style-type: none;
+  border-right: 3px solid blue;
+  float: left;
+}
+
+.main a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #f7084f;
+}
+
+.main a:hover {
+  background-color: #111;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

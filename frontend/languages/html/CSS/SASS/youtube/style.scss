@@ -1,0 +1,8 @@
+ $value:500px;
+ $abc:30px;
+ h1{
+    background-color: red;
+    height: $abc;
+     width: $value;
+     border: 3px solid black;
+    }

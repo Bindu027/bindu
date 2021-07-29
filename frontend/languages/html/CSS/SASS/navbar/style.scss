@@ -1,0 +1,18 @@
+@import "./common/mixin";
+$value: 100px;
+$val: 140px;
+
+ul{
+    @include list;
+   
+    li {
+        @include li-item;
+        
+         a{
+        text-decoration: none;
+        color: white;
+        padding: $value $val;
+         }
+   }
+}
+  

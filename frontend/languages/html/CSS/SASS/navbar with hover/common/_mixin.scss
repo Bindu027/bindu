@@ -1,0 +1,23 @@
+@mixin item1{
+    background-color: $color;
+    height: 60px;
+    margin: $value;
+    padding: $value;
+
+}
+@mixin item2 {
+    list-style-type: none;
+       border-right: 3px solid blue ;
+       float: left;
+    
+}
+@mixin item3{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(247, 8, 79);
+    &:hover{
+        background-color: #111;
+        color: white;
+    }
+}

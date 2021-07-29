@@ -1,0 +1,19 @@
+.parent{
+
+border: solid gray;
+
+    
+}
+.a{
+    
+    display: inline-block;
+    background-color: blueviolet;
+    width: 200px;
+    height: 40px;
+
+
+}
+.a:hover{
+
+    background-color: rgb(211, 15, 15);
+}
