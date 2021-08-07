@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>WELCOME LUDO</h1>
+    <button onclick="a()">click me to play</button>
+    <h2 id="f"></h2>
+    <h2 id="f2"></h2>
+    <h2 id="f3"></h2>
+    <h2 id="f4"></h2>
+    <h2 id="f5"></h2>
+
+
+    <script>
+        function a() {
+            var ran = Math.floor(Math.random()*10)
+            document.getElementById('f').innerHTML = `A ${ran}`;
+            var ran2 = Math.floor(Math.random()*10)
+            document.getElementById('f2').innerHTML =  `B ${ran2}`;
+            // var ran3= Math.floor(Math.random()*10)
+            // document.getElementById('f4').innerHTML = `C ${ran3}`;
+            // var ran4= Math.floor(Math.random()*10)
+            // document.getElementById('f5').innerHTML =  `D ${ran4}`;
+
+
+            if(ran > ran2 ){
+                document.getElementById('f3').innerHTML = `winner   is:   A`;
+             }else {
+                
+                    document.getElementById('f3').innerHTML = `winner   is:   B`;
+                }
+               
+             
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
